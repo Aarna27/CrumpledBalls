@@ -9,8 +9,8 @@ var backgroundImg,platform;
 var bird, slingShot;
 
 function preload() {
-    backgroundImg = loadImage("sprites/bg.png");
-    Dimage = loadImage("sprites/dustbingreen.png");
+    //backgroundImg = loadImage("sprites/bg.png");
+    Dimage = loadImage("dustbingreen.png");
 }
 
 function setup(){
@@ -29,7 +29,7 @@ function setup(){
 }
 
 function draw(){
-    background(backgroundImg);
+    background(255);
     Engine.update(engine);
     strokeWeight(4);
    
